@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Dlogo from "../assets/Dlogo.png";
+// import Dlogo from "../assets/Dlogo.png";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,9 @@ const Header = () => {
   return (
     <div className="nav-container">
       <div className="title-container">
-        <h1 style={{
+        <h1 onClick={()=>{
+            window.location.reload();
+        }} style={{
           fontSize:"2rem",fontFamily:"sans-serif"
         }}>Dilip Ram</h1>
       </div>
