@@ -108,7 +108,7 @@ const Home = () => {
           <button className="resume-button" onClick={()=>{
               window.open('/public/Ram_Dilip_Resume.pdf');
           }}>
-            Resume
+            {/* Resume */}
           </button>
         </div>
         </div>
