@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import githublight from "../assets/github-light.svg";
 import leetcodelogo from "../assets/leetcodelogo.png";
 import profile from "../assets/WhatsApp.jpeg";
-import Resume from "../assets/Ram_Dilip_Resume.pdf"
+
 const Home = () => {
   const fun = () => {
     window.open("/cv.pdf", "_blank");
@@ -106,7 +106,7 @@ const Home = () => {
           </div>
 
           <button className="resume-button" onClick={()=>{
-              window.open('/src/assets/Ram_Dilip_Resume.pdf');
+              window.open('/public/Ram_Dilip_Resume.pdf');
           }}>
             Resume
           </button>
